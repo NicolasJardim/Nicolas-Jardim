@@ -1,0 +1,69 @@
+body {
+  color:rgb(166, 106, 41);
+  background:rgb(0, 0, 0);
+  /*background: url("Legião_Urbana");*/
+  border: solid rgb(166, 106, 41) 5px;
+  background-size: cover;
+  
+   
+}
+.video{
+  margin-top: 10px;
+  padding-bottom: -20%;
+}
+
+header {
+
+    border-bottom: solid 5px rgb(182, 91, 11);
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(166, 106, 41);
+    
+}
+
+.chamada {
+  background: rgb(66, 32, 0);
+  padding-bottom: 80px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: left;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}   
+ 
+h1 {
+  font-size: 40px;
+}
+      
+p {
+  font-size: 20px;
+}
+
+img {
+  height: 150px;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x:auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solid rgb(133, 117, 54);
+}
